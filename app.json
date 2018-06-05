@@ -1,0 +1,10 @@
+{
+  "name": "sda-heroku",
+  "description": "Ejemplo de Deploy en Heroku",
+  "repository": "https://github.com/isabelc12/proyect-sda",
+  "image": "heroku/nodejs",
+  "addons" : [
+    "heroku-redis:hobby-dev",
+    "mongolab:sandbox"
+  ]
+}
